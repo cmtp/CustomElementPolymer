@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registrar Plato</title>
+	<link rel="import" href="bower_components/polymer/polymer.html">
+	<link rel="import" href="bower_components/paper-header-panel/paper-header-panel.html">
+	<link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
+	<link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+	<link rel="import" href="bower_components/iron-icons/iron-icons.html">
+	<link rel="import" href="bower_components/paper-button/paper-button.html">
+	<link rel="import" href="bower_components/paper-card/paper-card.html">
+	<link rel="import" href="bower_components/paper-input/paper-input.html">
+	<link rel="import" href="bower_components/paper-input/paper-textarea.html">
+	<link rel="import" href="bower_components/paper-dropdown-menu/paper-dropdown-menu.html">
+	<link rel="import" href="bower_components/paper-item/paper-item.html">
+	<link rel="import" href="bower_components/paper-listbox/paper-listbox.html">
+	<link rel="import" href="bower_components/iron-flex-layout/iron-flex-layout-classes.html">
+	<style is="custom-style">
+		.flex-equal-justified {
+			@apply(--layout-horizontal);
+			@apply(--layout-justified);
+		}
+		.flex-center-justified {
+			@apply(--layout-horizontal);
+			@apply(--layout-center-justified);
+		}
+	</style>
+	<!-- build:css styles/main.css -->
+	  <link rel="stylesheet" href="styles/main.css">
+	<!-- endbuild-->
+
+	<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+</head>
+<body>
+	<div class="vertical-section-container centered">
+		<paper-material elevation="1" class="">
+			<div class="title flex-equal-justified">
+				<h1>Registro de Platos</h1>
+			</div>
+			<div class="container">
+				<div class="flex-equal-justified">
+					<paper-input label="Ingrese un plato"></paper-input>
+					<paper-dropdown-menu label="Provincias">
+					  <paper-listbox class="dropdown-content">
+					    <paper-item>Arani</paper-item>
+					    <paper-item>Arque</paper-item>
+					    <paper-item>Ayopaya</paper-item>
+					    <paper-item>Bolivar</paper-item>
+					    <paper-item>Campero</paper-item>
+					    <paper-item>Capinota</paper-item>
+					    <paper-item>Carrasco</paper-item>
+					    <paper-item>Cercado</paper-item>
+					    <paper-item>Chapare</paper-item>
+					    <paper-item>Esteban Arze</paper-item>
+					    <paper-item>Germán Jordán</paper-item>
+					    <paper-item>Mizque</paper-item>
+					    <paper-item>Punata</paper-item>
+					    <paper-item>Quillacollo</paper-item>
+					    <paper-item>Tapacari</paper-item>
+					    <paper-item>Tiraque</paper-item>
+					    
+					    
+					  </paper-listbox>
+					</paper-dropdown-menu>
+					<paper-input label="Ingrese "></paper-input>
+				</div>
+				<div class="flex-equal-justified">
+					
+				</div>
+				<paper-textarea label="Ingrese la preparacion del plato"></paper-textarea>
+				
+			</div>
+		</paper-material>
+	</div>
+</body>
+</html>

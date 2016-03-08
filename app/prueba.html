@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Introduccion a Polymer</title>
+	<link rel="import" href="bower_components/polymer/polymer.html">
+	<link rel="import" href="bower_components/iron-icons/iron-icons.html">
+	<link rel="import" href="bower_components/iron-icons/av-icons.html">
+	<link rel="import" href="elements/dw-feedback/dw-feedback.html">
+	<link rel="import" href="elements/borrar-dw-binding/borrar-dw-binding.html">
+	<script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+
+</head>
+<style>
+	iron-icon {
+		color:red;
+	}
+</style>
+<body>
+	<borrar-dw-binding></borrar-dw-binding>
+	<iron-icon icon="icons:check-circle"></iron-icon>
+	<iron-icon icon="av:play-arrow"></iron-icon>
+	<dw-feedback>
+		<span class="messages">Polymer Funciona</span>
+		<p class="messages">Para varios Elementos</p>
+	</dw-feedback>
+</body>
+</html>

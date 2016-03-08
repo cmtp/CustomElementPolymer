@@ -1,0 +1,15 @@
+<link rel="import" href="../dw-binding/dw-binding.html">
+<dom-module id="borrar-dw-binding">
+	<template>
+		<dw-binding nombre="{{dato}}"></dw-binding>
+		<p><span on-tap="borrar">Borrar {{dato}}</span></p>
+	</template>
+	<script>
+	Polymer({
+		is: 'borrar-dw-binding',
+		borrar: function() {
+			this.dato = "";
+		}
+	});
+	</script>
+</dom-module>

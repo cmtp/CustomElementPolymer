@@ -1,0 +1,30 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<dom-module id="dw-feedback">
+	<template>
+		<style>
+			:host {
+				background-color: #de8a0b;
+				padding: 5px 10px;
+				color: aliceblue;
+				font-family: sans-serif;
+				display: block;
+				border-radius: 6px;
+			}
+			p {
+				font-weight: bold;
+			}
+			div {
+				color: red;
+			}
+		</style>
+		<p><content select=".messages"></content></p>
+		<div>
+			lalala
+		</div>
+	</template>
+	<script>
+	Polymer({
+		is: 'dw-feedback'
+	});
+	</script>
+</dom-module>
